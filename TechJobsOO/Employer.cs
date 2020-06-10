@@ -15,7 +15,7 @@ namespace TechJobsOO
 
         public Employer(string value) : this()
         {
-            Value = value;
+            Value = Value;
         }
 
         public override bool Equals(object obj)
