@@ -41,5 +41,10 @@ namespace TechJobsOO
         {
             return HashCode.Combine(Id);
         }
+
+        public override string ToString()
+        {
+            return $"\nID: {this.Id}\nName: {this.Name}\nEmployer: {this.EmployerName}\nLocation: {this.EmployerLocation}\nPosition Type: {this.JobType}\nCore Competency: {this.JobCoreCompetency}\n";
+        }
     }
 }
